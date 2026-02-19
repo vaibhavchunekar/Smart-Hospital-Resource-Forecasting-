@@ -65,19 +65,7 @@ This system can:
 
 ---
 
-## 📁 Project Structure
-
-Smart-Hospital-Resource-Forecasting/
-
-│
-├── data/ # input datasets
-├── src/ # preprocessing + models
-├── models/ # saved machine learning models
-├── notebooks/ # exploratory analysis
-├── app.py # Streamlit dashboard
-├── requirements.txt
-└── README.md
-## Project Structure
+## 📁  Project Structure
 
 ```
 Smart-Hospital-Resource-Forecasting/
@@ -95,7 +83,6 @@ Smart-Hospital-Resource-Forecasting/
 
 ## ▶️ How to Run
 
-```bash
 git clone https://github.com/vaibhavchunekar/Smart-Hospital-Resource-Forecasting-
 cd Smart-Hospital-Resource-Forecasting-
 pip install -r requirements.txt
@@ -104,7 +91,7 @@ streamlit run app.py
 
 ---
 ## License
----bash
+
 This project is licensed under the MIT License.
 
 ---
