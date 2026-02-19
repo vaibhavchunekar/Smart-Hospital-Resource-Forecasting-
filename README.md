@@ -77,6 +77,19 @@ Smart-Hospital-Resource-Forecasting/
 ├── app.py # Streamlit dashboard
 ├── requirements.txt
 └── README.md
+## Project Structure
+
+```
+Smart-Hospital-Resource-Forecasting/
+│
+├── data/           # input datasets
+├── src/            # preprocessing + ML models
+├── models/         # saved trained models
+├── notebooks/      # exploratory analysis (EDA)
+├── app.py          # Streamlit dashboard
+├── requirements.txt
+└── README.md
+```
 
 ---
 
