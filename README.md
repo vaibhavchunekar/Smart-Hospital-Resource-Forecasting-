@@ -1,128 +1,69 @@
-🏥 Smart Hospital Resource Forecasting System
+# 🏥 Smart Hospital Resource Forecasting System
 
-End-to-end healthcare analytics and machine learning system to forecast hospital bed occupancy, patient stay duration, and resource demand using MySQL, Python, and Streamlit.
+**End-to-end healthcare analytics and machine learning system to forecast hospital bed occupancy and patient stay duration using MySQL, Python, and Streamlit.**
 
-This project demonstrates real-world data engineering, machine learning, and deployment skills by transforming raw hospital data into actionable insights for hospital administrators.
+Smart Hospital Resource Forecasting System transforms raw hospital data into insights and predictions that help hospital administrators make informed operational decisions.
 
-📌 Problem Statement
+---
 
-Hospitals frequently face:
+## 🧠 Problem Statement
 
-Bed shortages
+Hospitals often struggle with:
 
-Overcrowding
+- Bed shortages
+- Overcrowding
+- Inefficient resource allocation
+- Long waiting times
 
-Inefficient resource allocation
+Accurate forecasting of patient stay and admissions can help administrators plan staffing, beds, and equipment more effectively.
 
-Long patient waiting times
+---
 
-Without accurate forecasting, planning staff, beds, and equipment becomes reactive instead of proactive.
+## 💡 Solution Overview
 
-✅ Solution
+This project:
 
-This system:
+- Extracts data from a MySQL database
+- Cleans and preprocesses records
+- Trains machine learning models to predict patient stay duration
+- Forecasts resource requirements
+- Provides an interactive Streamlit dashboard for decision support
 
-Extracts hospital data from MySQL
+---
 
-Cleans and preprocesses records (ETL pipeline)
+## 🛠 Tech Stack
 
-Trains ML models to predict patient stay duration
+- **Python** – Pandas, NumPy, Scikit-Learn  
+- **MySQL** – Database interaction and ETL  
+- **Streamlit** – Interactive dashboard  
+- **Matplotlib / Seaborn** – Visualization  
 
-Forecasts bed occupancy and resource requirements
+---
 
-Provides an interactive Streamlit dashboard for real-time decisions
+## 🚀 Key Features
 
-🛠 Tech Stack
+- MySQL database connectivity  
+- Automated data preprocessing  
+- Multiple ML models:
+  - Logistic Regression
+  - Random Forest
+  - Decision Tree  
+- Model evaluation (accuracy, ROC curve, confusion matrix)  
+- Interactive dashboard for prediction and visualization  
+- Modular, production-style code structure  
 
-Python – Pandas, NumPy, Scikit-learn
+---
 
-MySQL – Database & SQL queries
+## 📊 Business Impact
 
-Streamlit – Dashboard deployment
+This system can:
 
-Matplotlib / Seaborn – Visualization
+- Improve bed utilization planning  
+- Reduce patient waiting times  
+- Support data-driven hospital management  
+- Enable predictive healthcare analytics
 
-Machine Learning – Regression & Classification models
+---
 
-🚀 Key Features
+## 📁 Project Structure
 
-MySQL database connectivity
-
-Automated preprocessing pipeline
-
-Multiple ML models:
-
-Logistic Regression
-
-Random Forest
-
-Decision Tree
-
-Model comparison & evaluation:
-
-Accuracy
-
-Confusion Matrix
-
-ROC Curve
-
-Bed occupancy forecasting
-
-Interactive web dashboard
-
-Modular production-style codebase
-
-📊 Business Impact
-
-Improves bed utilization planning
-
-Reduces patient waiting time
-
-Supports data-driven hospital management
-
-Enables predictive healthcare analytics
-
-🧠 Skills Demonstrated
-
-This project showcases:
-
-Data Engineering (ETL, SQL, pipelines)
-
-Machine Learning modeling & evaluation
-
-Feature engineering
-
-Forecasting techniques
-
-Dashboard development
-
-End-to-end deployment
-
-Healthcare analytics use case
-
-👉 Relevant for roles: Data Analyst | Data Scientist | ML Engineer | BI Developer
-
-📁 Project Structure
-Smart-Hospital-Resource-Forecasting/
-│
-├── data/          # datasets
-├── src/           # preprocessing + models
-├── models/        # saved models
-├── notebooks/     # experiments
-├── app.py         # Streamlit dashboard
-├── requirements.txt
-└── README.md
-
-▶️ How to Run
-git clone <repo-url>
-cd Smart-Hospital-Resource-Forecasting
-pip install -r requirements.txt
-streamlit run app.py
-
-📷 Dashboard Preview
-
-(Add screenshots here)
-
-📜 License
-
-Licensed under MIT License.
