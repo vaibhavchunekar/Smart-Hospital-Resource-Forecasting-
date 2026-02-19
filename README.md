@@ -66,7 +66,9 @@ This system can:
 ---
 
 ## 📁 Project Structure
+
 Smart-Hospital-Resource-Forecasting/
+
 │
 ├── data/ # input datasets
 ├── src/ # preprocessing + models
@@ -88,8 +90,8 @@ streamlit run app.py
 
 
 ---
-##License
-
+## License
+---bash
 This project is licensed under the MIT License.
 
 ---
